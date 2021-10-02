@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: auto !important;
+}
+.ant-card-body {
+  width: 100% !important;
+  padding-top: 0px !important;
+}
+.ant-spin-dot-item {
+  background-color: #340762 !important;
+}
+
+.anticon.ant-notification-notice-icon-info {
+  color: #340762 !important;
+}
+.ant-result-subtitle {
+}
+.ant-alert-error {
+  background-color: #fff2f0;
+  border: 1px solid #ffccc7;
+  padding: 32px !important;
+}
+
+.ant-alert-message {
+  color: #ff2e63 !important;
+}
+.ant-list {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 20 !important;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+}
+.ant-pagination-item {
+  color: #340762 !important;
+  font-weight: bolder;
+}
+.ant-pagination-item-active {
+  border: 1px solid #aa11e2 !important;
+}
+.ant-list-item {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.ant-list-pagination {
+  text-align: right !important;
+  margin-top: -17px !important;
+}
+.ant-list-item-meta-description {
+  color: gray;
+}
+.ant-list-item-meta-title {
+  color: #340762 !important;
+  font-weight: bold !important;
+}
+@media (max-width: 650px) {
+  .ant-list-item-main {
+    width: 100%;
+    text-align: center;
+  }
+  .ant-list-item-extra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  @media (min-width: 535px) and (max-width: 650px) {
+    .ant-list-item-extra img {
+      margin-right: 15px !important;
+    }
+  }
+
+  .ant-list-item {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .ant-spin-container ul li {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
